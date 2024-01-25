@@ -1,0 +1,143 @@
+<html>
+
+<head>
+  <title>Ayush Rawat Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="left">
+        <img class="profile" src="Images/ayush.jpeg" alt="">
+        <b><span style="color:red">Ayush</span> Rawat</b>
+      </div>
+      <div class="right">
+        <ul>
+          <li><a href="#Home"><b>Home</b></a></li>
+          <li><a href="#About"><b>About</b></a></li>
+          <li><a href="#Skills"><b>Skills</b></a></li>
+          <li><a href="#Project"><b>Projects</b></a></li>
+          <li><a href="#Contact"><b>Contact</b></a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section id="Home">
+      <div class="firstsection">
+        <div class="leftsection">
+          <p>Hey, My Name is <span style="color:rgb(25, 0, 255)">Ayush Rawat</span> and an Aspiring</p>
+          <span id="element"></span>
+          <div class="socialmedia">
+            <a href="https://www.instagram.com/ayush_rawat254/" target="_blank"><img class="socialicons"
+                src="Images/Logo/insta.png" alt=""></a>
+            <a href="https://www.linkedin.com/in/ayush-rawat-5481802a3/" target="_blank"><img class="socialicons"
+                src="Images/Logo/linkedin.png" alt=""></a>
+            <a href="https://github.com/Ayush-rawat25" target="_blank"><img class="socialicons"
+                src="Images/Logo/github.png" alt=""></a>
+          </div>
+          <div class="rb"><button class="resume">Resume</button></div>
+        </div>
+        <div class="rightsection">
+          <img style="width: 100%;" src="Images/Logo/home.png" alt="">
+        </div>
+      </div>
+    </section>
+    <hr id="About">
+    <section>
+      <div class="aboutsection">
+        <div class="aboutme">
+          <h1 class="ah">About Me</h1>
+          <p class="ap">Hi! myself Ayush Rawat. I am pursuing my undergraduation in Computer Science and Enginnering
+            from Galgotias university.
+            I aspire to be an excellent Software Engineer and use my skills to make something productive and helpful for
+            the socity.
+          </p>
+          <p class="ap">I have a keen interest in development and always want to try new things. In my free time you can
+            find me coding, playing
+            chess or video games.
+          </p>
+        </div>
+        <img src="Images/about.jpeg" class="aboutphoto">
+      </div>
+    </section>
+    <hr id="Skills">
+    <section>
+      <h1 style="text-align: center;font-size: 5rem; margin-bottom: 20px;">My <span style="color: blue;">Skills</span>
+      </h1>
+      <div class="skillsgrid">
+        <div class="python">
+          <div><img class="logo" src="Images/Logo/p.png" alt=""></div>
+          <p style="font-size: 1.5rem; text-align: center;">Python</p>
+        </div>
+        <div class="python">
+          <div><img class="logo" src="Images/Logo/c.png" alt=""></div>
+          <p style="font-size: 1.5rem; text-align: center;">C++</p>
+        </div>
+        <div class="python">
+          <div><img class="logo" src="Images/Logo/sql.png" alt=""></div>
+          <p style="font-size: 1.5rem; text-align: center;">MySQL</p>
+        </div>
+      </div>
+      <div class="skillsgrid">
+        <div class="python">
+          <div><img class="logo" src="Images/Logo/html.png" alt=""></div>
+          <p style="font-size: 1.5rem; text-align: center;">HTML</p>
+        </div>
+        <div class="python">
+          <div><img class="logo" src="Images/Logo/css.png" alt=""></div>
+          <p style="font-size: 1.5rem; text-align: center;">CSS</p>
+        </div>
+        <div class="python">
+          <div><img class="logo" src="Images/Logo/js.png" alt=""></div>
+          <p style="font-size: 1.5rem; text-align: center;">JavaScript</p>
+        </div>
+      </div>
+    </section>
+    <hr id="Contact">
+    <section>
+      <h1 style="text-align: center;font-size: 5rem; margin-bottom: 20px;"><span style="color: blue;">Contact Me</span>
+        Here</h1>
+      <div
+        style="text-align: center;font-size: 5rem; margin-bottom: 20px;background-color: blue;border-radius: 50%;width: 120px;margin-left: 47%;">
+        &#9993;</div>
+      <div class="form">
+        <form action="">
+          <p>Name :
+            <input type="text" required name="Name" placeholder="Your FullName">
+          </p>
+          <p>
+            Email :
+            <input type="email" name="Emai" id="Email" required placeholder="sample@gmail.com">
+          </p>
+          <p>
+            Subject:
+            <input type="text" name="Subject" required placeholder="Subject">
+          </p>
+          <p>
+            Message:<br>
+            <textarea type="text" name="Message" id="Message" required placeholder="Message" cols="100"
+              rows="5"></textarea>
+          </p>
+          <input type="submit" value="Send Message">
+        </form>
+      </div>
+    </section>
+  </main>
+  <div class="footer">
+    <p style="text-align: center;padding-top: 40px;">Copyright &copy; Ayush Rawat</p>
+  </div>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer', "Coder."],
+      typeSpeed: 20,
+    });
+  </script>
+</body>
+
+</html>
